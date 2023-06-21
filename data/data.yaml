@@ -1,0 +1,15 @@
+path: data
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['chariot elevateur', 'convoyeur', 'palette', 'broyeur']
+
+roboflow:
+  workspace: uqtr-2v1ej
+  project: industrial-objects-wv2vw
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uqtr-2v1ej/industrial-objects-wv2vw/dataset/3
